@@ -1,0 +1,17 @@
+# Ignore specific files
+*.config.js
+*.config.mjs
+
+# Ignore specific directories
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Ignore specific file types
+*.min.js
+*.bundle.js
+
+# Ignore specific files
+public/ 
