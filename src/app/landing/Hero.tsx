@@ -10,9 +10,11 @@ export function Hero() {
             <p className="text-lg text-gray-700 mt-8 max-w-2xl">
                 Developing and providing state-of-the-art efficient speech-to-speech AI models.
             </p>
-            <button className=" mt-8 bg-black text-white rounded-[100px] px-8 py-2 hover:bg-gray-800">
-                Try Our Models
-            </button>
+            <a href="https://huggingface.co/tinywave" target="_blank" rel="noopener noreferrer">
+                <button className="mt-8 bg-black text-white rounded-[100px] px-8 py-2 hover:bg-gray-800">
+                    Try Our Models
+                </button>
+            </a>
         </header>
     );
 }
