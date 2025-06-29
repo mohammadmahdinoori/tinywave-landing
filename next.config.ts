@@ -6,7 +6,9 @@ const nextConfig: NextConfig = {
   distDir: "out",
   images: {
     unoptimized: true,
-  }
+  },
+  basePath: "/tinywave-landing",
+  assetPrefix: "/tinywave-landing"
 };
 
 export default nextConfig;
