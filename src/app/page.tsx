@@ -14,6 +14,8 @@ const sectionVariants = {
   visible: { opacity: 1, y: 0 },
 };
 
+const path_prefix = "https://mohammadmahdinoori.github.io/tinywave-landing"
+
 const tinywave_expressvie_examples: Example[] = [
   {
     id: 1,
@@ -22,7 +24,7 @@ const tinywave_expressvie_examples: Example[] = [
     transcript:
       "Input (Text): She had never seen the ocean before, and when she finally stood at the shore—",
     userAudioURL: "",
-    modelAudioURL: "/audio/tinywave-expressive/prompt_1.wav",
+    modelAudioURL: path_prefix + "/audio/tinywave-expressive/prompt_1.wav",
   },
   {
     id: 2,
@@ -30,23 +32,23 @@ const tinywave_expressvie_examples: Example[] = [
     sampleType: "text-to-speech",
     transcript: "Input (Text): You think this is funny? Do you have any idea what you’ve done?",
     userAudioURL: "",
-    modelAudioURL: "/audio/tinywave-expressive/prompt_2.wav"
+    modelAudioURL: path_prefix + "/audio/tinywave-expressive/prompt_2.wav"
   },
   {
     id: 3,
     title: "Example 3",
     sampleType: "speech-to-speech",
     transcript: "Input (Speech): He rose from his chair and",
-    userAudioURL: "/audio/tinywave-expressive/prompt_3_input.wav",
-    modelAudioURL: "/audio/tinywave-expressive/prompt_3_output.wav"
+    userAudioURL: path_prefix + "/audio/tinywave-expressive/prompt_3_input.wav",
+    modelAudioURL: path_prefix + "/audio/tinywave-expressive/prompt_3_output.wav"
   },
   {
     id: 4,
     title: "Example 4",
     sampleType: "speech-to-speech",
     transcript: "Input (Speech): The keen wind",
-    userAudioURL: "/audio/tinywave-expressive/prompt_7_input.wav",
-    modelAudioURL: "/audio/tinywave-expressive/prompt_7_output.wav"
+    userAudioURL: path_prefix + "/audio/tinywave-expressive/prompt_7_input.wav",
+    modelAudioURL: path_prefix + "/audio/tinywave-expressive/prompt_7_output.wav"
   },
   {
     id: 5,
@@ -54,7 +56,7 @@ const tinywave_expressvie_examples: Example[] = [
     sampleType: "text-to-speech",
     transcript: 'Input (Text): "You don’t understand. If we do this—", "Then we can’t go back. I know."',
     userAudioURL: "",
-    modelAudioURL: "/audio/tinywave-expressive/prompt_4.wav"
+    modelAudioURL: path_prefix + "/audio/tinywave-expressive/prompt_4.wav"
   },
   {
     id: 6,
@@ -62,7 +64,7 @@ const tinywave_expressvie_examples: Example[] = [
     sampleType: "text-to-speech",
     transcript: 'Input (Text): I tried so hard to make it work, but—',
     userAudioURL: "",
-    modelAudioURL: "/audio/tinywave-expressive/prompt_5.wav"
+    modelAudioURL: path_prefix + "/audio/tinywave-expressive/prompt_5.wav"
   },
   {
     id: 7,
@@ -70,7 +72,7 @@ const tinywave_expressvie_examples: Example[] = [
     sampleType: "text-to-speech",
     transcript: 'Input (Text): I thought it was a dream, but when I woke up—',
     userAudioURL: "",
-    modelAudioURL: "/audio/tinywave-expressive/prompt_8.wav"
+    modelAudioURL: path_prefix + "/audio/tinywave-expressive/prompt_8.wav"
   },
 ]
 
@@ -81,24 +83,24 @@ const tinywave_base_examples: Example[] = [
     sampleType: "speech-to-speech",
     transcript:
       "Input (Speech): Many little pieces of silver",
-    userAudioURL: "/audio/tinywave-base/prompt_1_input.wav",
-    modelAudioURL: "/audio/tinywave-base/prompt_1_output.wav",
+    userAudioURL: path_prefix + "/audio/tinywave-base/prompt_1_input.wav",
+    modelAudioURL: path_prefix + "/audio/tinywave-base/prompt_1_output.wav",
   },
   {
     id: 2,
     title: "Example 2",
     sampleType: "speech-to-speech",
     transcript: "Input (Speech): He would see however that there was",
-    userAudioURL: "/audio/tinywave-base/prompt_2_input.wav",
-    modelAudioURL: "/audio/tinywave-base/prompt_2_output.wav"
+    userAudioURL: path_prefix + "/audio/tinywave-base/prompt_2_input.wav",
+    modelAudioURL: path_prefix + "/audio/tinywave-base/prompt_2_output.wav"
   },
   {
     id: 3,
     title: "Example 3",
     sampleType: "speech-to-speech",
     transcript: "Input (Speech): 1734",
-    userAudioURL: "/audio/tinywave-base/prompt_3_input.wav",
-    modelAudioURL: "/audio/tinywave-base/prompt_3_output.wav"
+    userAudioURL: path_prefix + "/audio/tinywave-base/prompt_3_input.wav",
+    modelAudioURL: path_prefix + "/audio/tinywave-base/prompt_3_output.wav"
   },
 ]
 
