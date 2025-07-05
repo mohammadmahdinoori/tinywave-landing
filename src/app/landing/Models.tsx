@@ -18,9 +18,11 @@ export function Models() {
                                 Download Models
                             </button>
                         </a>
-                        <button className="mt-4 sm:mt-0 sm:ml-4 bg-gray-300 text-black rounded-full px-8 py-2">
-                            Read Paper
-                        </button>
+                        <a href="https://arxiv.org/pdf/2506.23670" target="_blank" rel="noopener noreferrer">
+                            <button className="mt-4 sm:mt-0 sm:ml-4 bg-gray-300 text-black rounded-full px-8 py-2">
+                                Read Paper
+                            </button>
+                        </a>
                     </div>
                 </div>
 

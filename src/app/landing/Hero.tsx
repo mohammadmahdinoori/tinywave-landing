@@ -5,7 +5,7 @@ export function Hero() {
         <header className="flex flex-col items-center justify-center text-center py-20 px-6 md:px-12">
             <div className="h-16" />
             <h1 className="text-2xl md:text-6xl font-bold text-black max-w-6xl leading-[1.25]">
-                Training Efficient Speech-to-Speech Models via Knowledge Distillation
+                Efficient Interleaved Speech Modeling through Knowledge Distillation
             </h1>
             <p className="text-lg text-gray-700 mt-8 max-w-2xl">
                 Developing and providing state-of-the-art efficient speech-to-speech AI models.
